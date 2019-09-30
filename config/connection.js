@@ -1,9 +1,6 @@
 //Require mysql npm package to create a connection to the mysql database.
 var mysql = require("mysql");
 
-require("dotenv").config();
-let keys = require('../keys.js')
-
 //Read and set any environment variables with the dotenv package.
 // require("dotenv").config();
 
@@ -22,7 +19,7 @@ let keys = require('../keys.js')
     host: "localhost",
     port: 3306,
     user: "root",
-    password: keys.database,
+    password: "REDHOT,,77MYSQL",
     database: "burger_db"
   });
   
