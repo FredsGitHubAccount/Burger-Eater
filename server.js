@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 
 //Define port the server will be listening on.
-var PORT = 3000;
+const port = process.env.PORT || 4000;
 
 var app = express();
 
@@ -28,6 +28,6 @@ var routes = require("./controllers/burgersController.js");
 app.use(routes);
 
 //App is listening...
-app.listen(PORT, function() {
+app.listen(port, function() {
   console.log("App now listening at localhost:" + PORT);
 });
