@@ -36,3 +36,6 @@ Back-End
 
 ```
 
+### Requirements
+- [ ] A MySQL Database
+
