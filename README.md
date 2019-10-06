@@ -28,7 +28,7 @@ Back-End
 
 ### Setup 
 ```
-1. git https://github.com/FredsGitHubAccount/Burger-Eater clone 
+1. git clone https://github.com/FredsGitHubAccount/Burger-Eater 
 2. cd Burger-Eater in your terminal
 3. npm install
 4. node server.js
