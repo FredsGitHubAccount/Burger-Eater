@@ -4,7 +4,7 @@ A virtual burger eating application utilizing handlebars, express.js, node.js, a
 ## Table of Contents 
 
 ## Objective 
-The objective of this application is to showcase my use of the MVC architecture utilizing GET, POST, PUT, & Delete methods.
+The objective of this application is to showcase my use of the MVC architecture utilizing GET, POST, PUT, & DELETE methods.
 
 
 

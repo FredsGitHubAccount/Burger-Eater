@@ -10,6 +10,7 @@ var burger = require("../models/burger.js");
 //GET route to get burgers from database.
 router.get("/", function(req, res) {
   burger.all(function(data) {
+    console.log("controller call")
     var hbsObject = {
       burgers: data
     };
