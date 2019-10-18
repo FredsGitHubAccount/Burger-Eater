@@ -1,17 +1,12 @@
-//Require express
-var express = require("express");
+let express = require("express");
+let router = express.Router();
+let burger = require("../models/burger.js");
 
-var router = express.Router();
-
-// Import the model (burger.js) to use its database functions.
-var burger = require("../models/burger.js");
-
-// Create all our routes and set up logic within those routes where required.
 //GET route to get burgers from database.
 router.get("/", function(req, res) {
   burger.all(function(data) {
     console.log("controller call")
-    var hbsObject = {
+    let hbsObject = {
       burgers: data
     };
     console.log(hbsObject);
@@ -33,7 +28,7 @@ router.post("/api/burgers", function(req, res) {
 
 //PUT route to update burger devoured state.
 router.put("/api/burgers/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+  let condition = "id = " + req.params.id;
 
   console.log("condition", condition);
 
