@@ -7,6 +7,10 @@ A virtual burger eating application utilizing handlebars, express.js, node.js, a
 The objective of this application is to showcase my use of the MVC architecture utilizing GET, POST, PUT, & DELETE methods.
 
 
+## Screenshot
+![Screenshot](/ss/burger.png)
+
+
 
 ## Code Structure
 Since I did utilize the MVC architecture,  to simply put it, once the user makes a request, the request is sent to the controller, the controller then calls the model, the model calls the ORM to gather the relevant data, the model then sends a response to the controller, the controller sends the response to the views, and the views displays the response to the user.  
